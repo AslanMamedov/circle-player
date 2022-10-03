@@ -1,0 +1,86 @@
+.app {
+	background: rgb(31, 34, 37);
+	background: linear-gradient(0deg, rgb(10, 10, 10) 0%, rgba(86, 96, 106, 1) 100%);
+	height: 100vh;
+	padding: 10px 15px;
+}
+
+.container {
+	max-width: 1440px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100%;
+	margin: 0 auto;
+
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	max-width: 250px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 25px;
+}
+
+.name {
+	font-size: 25px;
+	color: white;
+	font-weight: 600;
+}
+
+.singer {
+	color: rgb(163, 173, 183);
+	font-weight: 500;
+}
+
+.time {
+	padding-top: 30px;
+	text-align: center;
+	color: rgb(163, 173, 183);
+	font-size: 14px;
+	font-weight: 500;
+	padding-bottom: 8px;
+}
+.range-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.range {
+	position: absolute;
+}
+
+.img {
+	width: 220px;
+	height: 220px;
+	border-radius: 100%;
+}
+
+.buttons {
+	margin-top: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+
+	cursor: pointer;
+	svg {
+		fill: white;
+		font-size: 50px;
+	}
+}
+
+.rotate {
+	transform: rotate(-180deg);
+}
